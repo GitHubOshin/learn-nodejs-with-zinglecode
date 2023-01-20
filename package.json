@@ -1,0 +1,22 @@
+{
+  "name": "learn-nodejs-with-zinglecode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "justTest.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GitHubOshin/learn-nodejs-with-zinglecode.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GitHubOshin/learn-nodejs-with-zinglecode/issues"
+  },
+  "homepage": "https://github.com/GitHubOshin/learn-nodejs-with-zinglecode#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
