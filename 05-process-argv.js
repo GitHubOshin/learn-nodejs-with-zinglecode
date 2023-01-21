@@ -1,5 +1,5 @@
-const minimist = require('minimist')
-
+// const minimist = require('minimist')
+import minimist from 'minimist'
 /**
  * process.argv
  *
@@ -17,7 +17,7 @@ function get_rectangle_area(width, height) {
 
 const argu = process.argv.slice(2)
 const cleanArgu = minimist(argu)
-const [s, w, h] = cleanArgu
+const { s, w, h } = cleanArgu
 
 let area = 0
 if (s === 'tri') {
